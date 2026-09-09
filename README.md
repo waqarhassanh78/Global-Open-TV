@@ -19,26 +19,27 @@ A lightweight, fully open-source terminal-based IPTV player. This tool taps into
 *(Note for Linux users: This setup utilizes a Virtual Environment to comply with PEP 668 restrictions.)*
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/waqarhassanh78/global-tv.git](https://github.com/waqarhassanh78/global-tv.git)
-   cd global-tv ```
-   Initialize the virtual environment:
+```Bash
+git clone https://github.com/waqarhassanh78/global-tv.git
+cd global-tv
+   ```
+   
+ 3. **Initialize the virtual environment:**
 
 ```Bash
 sudo apt install python3-venv -y
 python3 -m venv venv
 source venv/bin/activate
 ```
-**Install the required dependencies:**
+ 3. **Install the required dependencies:**
 
 ```Bash
 pip install python-vlc rich requests
 ```
-**🕹️ Usage**
+4. **🕹️ Usage**
 Activate your environment and launch the terminal dashboard:
 
 ```Bash
-source venv/bin/activate
 python3 tv.py
 ```
 **📜 Available Commands:**
